@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="mypic2.jpg" alt="as">
+            <h3 class="name">Priyanshu Choubey Mohanta</h3>
+            <p class="post">Front End Developer</p>
+        </div>
+        <nav class="navbar">
+            <ul><b>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul></b>
+        </nav>
+    </header>
+    <div id="menu" class="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+    <!--=============home=============-->
+    <section class="home" id="home">
+        <h3 class="pt1">Hi,</h3>
+        <h1 class="pt2">I'M Priyanshu <span>Choubey Mohanta</span></h1>
+        <p class="pt3">This is my official Portfolio website.<br>
+            This website contains my all details and work experiences.</p>    
+    </section>
+    <!--===================about=====================-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Name:</span> Priyanshu Choubey Mohanta</h3>
+                <h3><span>Age:</span> 21</h3>
+                <h3><span>Qualification:</span> Present BCA Student</h3>
+                <h3><span>Language:</span> English , Hindi , Bengali</h3>
+                <p>Motivated, diligent and responsible undergraduate seeking an opportunity to become a Web Developer.<br>
+                    Highly passionate to achieve a good spot in IT field, ability to debug, analyse and present the code using various analytical tools.
+                    Have been proactive and focused as a student.</p>
+                <a href="#"><button class="btn">Download CV</button></a>
+            </div>
+        </div>
+    </section>
+    <!--===================Education=====================-->
+    <section class="education" id="education">
+        <h1 class="heading">My <span>Education</span></h1><i class="fas fa-graduation-cap"></i>
+        <div class="box-container">
+            <div class="box">
+                
+                <ul>
+                    <li><span><h1>Bachelors of Computer Application</h1></span><br><h2>Asansol Engineering College</h2><br><h3>2021-2024</h3></li>
+                    <li><span><h1>Higher Secondary</h1></span><br><h2>Burnpur Riverside School</h2><br><h3>2019-2021</h3></li>
+                    <li><span><h1>Secondary</h1></span><br><h2>Burnpur Riverside School</h2><br><h3>2007-2019</h3></li>
+                    
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!--===================Skills=====================-->
+    <section class="skills" id="skills">
+        <h1 class="heading">My <span>Skills</span></h1>
+        <div class="ski">
+            <div class="ts">
+                <h1>Technical Skills</h1>
+                <ul>
+                    <li><h2>HTML</h2></li>
+                    <li><h2>CSS</h2></li>
+                    <li><h2>JAVASCRIPT</h2></li>
+                    <li><h2>DATA STRUCTURE AND ALGO. (DSA)</h2></li>
+                    <li><h2>PYTHON</h2></li>
+                    <li><h2>JAVA (OOPs)</h2></li>
+                    <li><h2>SQL</h2></li>
+                    
+                </ul>
+            </div>
+            <div class="ps">
+            <h1>Personal Skills</h1>
+            <ul>
+                <li><h2>Communication</h2></li>
+                <li><h2>Probelm Solving</h2></li>
+                <li><h2>Teamwork</h2></li>
+                <li><h2>Creativity</h2></li>
+                <li><h2>Management</h2></li>
+                
+            </ul>
+            </div>
+        </div>
+    </section>
+<!--===================Contact Me=====================-->
+<section class="contact" id="contact">
+    <h1 class="heading">Contact <span>Me</span></h1>
+    <form id="form">
+        <label for="name">Enter Name:</label><br>
+        <input type="text" id="nam" name="name" size="70"><br>
+        <label for="mail">Enter Email:</label><br>
+        <input type="text" id="email" name="mail" size="70"><br>
+        <input class="ab" type="submit" value="Send" >
+    </form>
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/priyanshu-choubey-8a4196224 "><i class="fa-brands fa-linkedin-in"></i></a>
+        <div class="det">
+            <span>+91-8101317035</span>
+            <span>choubeydeep2002@gmail.com</span>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
